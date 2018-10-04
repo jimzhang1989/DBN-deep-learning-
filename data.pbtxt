@@ -1,0 +1,8 @@
+name: "rbm"
+data {
+  name: "hcpData"
+  file_pattern: "/home/wei/Language/Data/input.npy"
+  size: 316318
+  dimensions: 316
+}
+main_memory: "16G"

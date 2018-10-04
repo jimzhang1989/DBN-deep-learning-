@@ -1,0 +1,12 @@
+optimizer: CD
+stopcondition {
+  all_processed: false
+  steps: 100000
+}
+train: true
+batchsize: 3
+data_proto: "/home/wei/Language/model/data.pbtxt"
+eval_after: 100
+checkpoint_after: 100000
+checkpoint_directory: "/home/wei/Language/Results_2"
+randomize: true
